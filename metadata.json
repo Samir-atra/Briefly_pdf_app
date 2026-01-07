@@ -1,0 +1,5 @@
+{
+  "name": "Briefly PDF",
+  "description": "Intelligent PDF summarizer with adjustable length controls using Gemini 3 Flash.",
+  "requestFramePermissions": []
+}
