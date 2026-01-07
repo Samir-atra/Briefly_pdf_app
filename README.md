@@ -1,6 +1,6 @@
 # Briefly PDF
 
-**Briefly PDF** is an intelligent document summarization tool powered by Google's **Gemini 3 Flash** model. It allows users to transform lengthy PDF documents into digestible summaries with precise control over the output length.
+**Briefly PDF** is an intelligent document summarization tool powered by Google's **Gemini 3 Flash** model. It allows users to transform lengthy PDF documents, such as books, journals, and articles into digestible summaries with precise control over the output length.
 
 ## 🚀 Features
 
