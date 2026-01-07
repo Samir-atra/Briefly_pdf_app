@@ -54,7 +54,7 @@ const App: React.FC = () => {
       
       {/* Header */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-10">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="bg-indigo-600 p-1.5 rounded-lg">
               <Sparkles className="w-5 h-5 text-white" />
@@ -69,13 +69,13 @@ const App: React.FC = () => {
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         
         {/* Main Content Area */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           
           {/* Left Column: Controls & Input */}
-          <div className={`lg:col-span-5 flex flex-col gap-8 transition-all ${summary ? 'lg:col-span-4' : 'lg:col-start-4 lg:col-span-6'}`}>
+          <div className={`lg:col-span-5 flex flex-col gap-8 transition-all ${summary ? 'lg:col-span-3' : 'lg:col-start-4 lg:col-span-6'}`}>
             
             {/* Step 1: Input */}
             {!summary && (
@@ -228,7 +228,7 @@ const App: React.FC = () => {
 
           {/* Right Column: Output */}
           {summary && (
-            <div className="lg:col-span-8 animate-in fade-in slide-in-from-bottom-8 duration-500">
+            <div className="lg:col-span-9 animate-in fade-in slide-in-from-bottom-8 duration-500">
               <SummaryResult 
                 markdown={summary} 
                 percentage={percentage} 
